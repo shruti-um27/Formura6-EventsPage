@@ -139,28 +139,18 @@ h1,h2,h3,h4,h5,h6,p,span,ul,li,a,div{
     width:60%;
 
 }
-.right form input{
+/* .right form input{
     width: 100%;
-    height:30px;
+    height:60px;
     border-radius: 10px;
     color:black;
     font-size: 24px;
     font-weight: 500;
     font-family:'Montserrat', sans-serif ;
     padding: 10px;
-}
-.right a{
-    font-size: 30px;
-    font-weight: 500;
-    font-family:'Montserrat', sans-serif ;
-    background-color: #18d26e!important;
-    color:white;
-    border-radius: 15px;
-    width:200px;
-    padding:10px;
-    text-decoration: none;
-}
-.right input[type=submit]{
+} */
+
+/* .right input[type=submit]{
     font-size: 30px;
     font-weight: 500;
     font-family:'Montserrat', sans-serif ;
@@ -171,6 +161,39 @@ h1,h2,h3,h4,h5,h6,p,span,ul,li,a,div{
     padding:10px;
     border: none;
     margin-right: 50px;
+}  */
+ 
+.right form input{
+    width: 100%;
+    height:30px;
+    border-radius: 10px;
+    color:black;
+    font-size: 24px;
+    font-weight: 500;
+    font-family:'Montserrat', sans-serif ;
+    padding: 10px;
+    border:none;
+    border:2px solid black;
+ 
+}
+ 
+.right form [type=submit]{
+    font-size: 24px;
+    font-weight: 500;
+    font-family:'Montserrat', sans-serif ;
+    background-color: #18d26e!important;
+    color:white;
+    border-radius: 15px;
+    width:180px;
+    padding:10px;
+    border: none;
+    margin-right: 50px;
+    height: 60px;
+    width:120px;
 } 
- 
- 
+.right form input[type=file]{
+    color:#18d26e;
+    height: 50px;
+    border:none;
+    
+}

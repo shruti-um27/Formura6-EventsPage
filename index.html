@@ -39,14 +39,17 @@
         <div class="right">
             <h1>Upcoming Events</h1>
             <br>
-            <img src="p9.jpeg" alt="">
             <form>
-                Enter Title: <input type="text" name="Title" id="Title"required>
-                Enter Description: <input type="text" name="description" id="description"required>
-                Enter Date :<input type="date" name="date" id="date"required>
+                <label for="myfile">Select a file:</label>
+                <input type="file" id="myfile" name="myimage" accept="image/png,image/jpeg,image/jpg">
+                <label for="Title">Enter Title:</label> 
+                <input type="text" name="Title" id="Title"required>
+                <label for="description">Enter Description</label> 
+                <input type="text" name="description" id="description"required>
+                <label for="date">Enter Date:</label> 
+                <input type="date" name="date" id="date"required>
+                <input type="submit" value="Submit">
             </form><br><br>
-            <a href="http://"required>Take Part</a>
-            <input type="submit" value="Submit">
         </div>
     </div>
 </body>
